@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SYSTEM.EXE</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        min-height: 100vh;
+        min-height: 100dvh;
+        background: #050505;
+        color: #eeeeee;
+        font-family: "Courier New", monospace;
+      }
+      
+      #app {
+        width: 100%;
+        min-height: 100vh;
+        min-height: 100dvh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+      }
+      
+      .scene {
+        width: min(700px,90%);
+        padding: 40px;
+        border: 1px solid #333;
+        background: #0b0b0b;
+        background: rgba(21, 21, 21, 0.7);
+        opacity: 1;
+      }
+      
+      .scene h2 {
+        margin-top: 0;
+        letter-spacing: 4px;
+      }
+      
+      .content {
+        min-height: 150px;
+        margin: 30px 0;
+        line-height: 1.6;
+        overflow: auto;
+      }
+      
+      .content p {
+          margin: 12px 0;
+      }
+      
+      button {
+        padding: 12px 30px;
+        background: #111;
+        color: #fff;
+        border: 1px solid #555;
+        cursor: pointer;
+        font-family: inherit;
+        transition: 0.2s;
+      }
+      
+      button:hover {
+        background: #222;
+      }
+      
+      button:disabled {
+        opacity: 0;
+        cursor: not-allowed;
+        pointer-events: none;
+      }
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      .matrix-bg {
+          background-color: #000000;
+          font-family: 'Press Start 2P', monospace;
+          font-size: 4rem;
+          position: fixed;
+          inset: 0;
+          min-height: 100vh;
+          min-height: 100dvh;
+          display: flex;
+          justify-content: space-between;
+          overflow: hidden;
+          z-index: -9;
+          opacity: 0.8;
+          transition: opacity 0.2s ease;
+      }
+      .matrix-column {
+          display: flex;
+          flex-direction: column;
+          white-space: nowrap;
+          font-size: 13px; 
+          line-height: 1.5;
+          color: rgba(255, 51, 153, 0.45);
+          user-select: none;
+      }
+      .matrix-move {
+          animation: scrollDown 120s linear infinite;
+      }
+      .matrix-column:nth-child(even) .matrix-move {
+          animation: scrollDown 107s linear infinite;
+      }
+      
+      @keyframes scrollDown {
+          0% {
+              transform: translateY(-50%);
+          }
+          100% {
+              transform: translateY(0%);
+          }
+      }
+    </style>
+</head>
+<body>
+    <!-- setelah next page, page sebelumnya innerHTML = "" -->
+    
+    <div class="matrix-bg" id="bgContainer"></div>
+    
+    <div id="app"></div>
+    <script src="script.js"></script>
+</body>
+</html>

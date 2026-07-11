@@ -1,0 +1,19 @@
+{
+  "title": "SYSTEM.EXE",
+  "version": "1.0.0",
+  "story": "love",
+  "stories": {
+    "love": [
+      "opening",
+      "hello",
+      "loading",
+      "story",
+      "littleThings",
+      "analysis",
+      "result",
+      "honesty",
+      "thankYou",
+      "ending"
+    ]
+  }
+}
