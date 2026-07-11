@@ -1,0 +1,32 @@
+{
+  "id": "result",
+  "title": "RESULT",
+
+  "type": "result",
+
+  "animation": {
+    "enter": "fade",
+    "exit": "fade"
+  },
+
+  "typing": {
+    "enabled": true,
+    "speed": 25,
+    "delay": 1000
+  },
+
+  "button": {
+    "text": "Continue",
+    "action": "next"
+  },
+
+  "next": "honesty",
+
+  "content": [
+    "Aku suka sama kamu.",
+    "Sesederhana itu.",
+    "Nggak ada alasan yang rumit.",
+    "Cuma karena...",
+    "Setiap ngobrol sama kamu, hari rasanya jadi lebih menyenangkan."
+  ]
+}

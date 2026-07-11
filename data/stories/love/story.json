@@ -1,0 +1,56 @@
+{
+  "id": "story",
+  "title": "A LITTLE STORY",
+
+  "type": "dialog",
+
+  "animation": {
+    "enter": "fade",
+    "exit": "fade"
+  },
+
+  "typing": {
+    "enabled": true,
+    "speed": 50,
+    "delay": 1500
+  },
+
+  "button": {
+    "text": "Sure :)",
+    "action": "next"
+  },
+
+  "next": "littleThings",
+
+  "content": [
+    "Aku boleh cerita sebentar ga?",
+    "Soalnya...",
+    "ada sesuatu yang udah lama pengen aku sampaikan.",
+    "Awalnya...",
+    "Aku nggak pernah nyangka semuanya bakal jadi seperti ini.",
+    "Kita cuman saling ngobrol biasa aja.",
+    "Sesederhana itu.",
+    "Nggak ada yang terasa istimewa.",
+    "Sampai akhirnya...",
+    "Kita mulai sering ngobrol.",
+    "Terus ngobrol lagi.",
+    "Lagi",
+    "Dan lagi.",
+    "Sejak saat itu...",
+    "Aku selalu nungguin kabar dari kamu.",
+    "Mungkin...",
+    "Aku mulai menikmati setiap obrolan itu.",
+    "Bahkan obrolan yang sebenarnya sederhana sekalipun.",
+    "Dan di situ juga aku mulai merasa takut.",
+    "Takut...",
+    "Takut......",
+    "Saaaaangat takut!",
+    "Takut kalau semua ini cuman berarti buat aku.",
+    "Ta... tapi...",
+    "Perasaan itu tetap tumbuh secara perlahan.",
+    "Dan",
+    "Sampai akhirnya...",
+    "Aku sadar",
+    "Mungkin sejak saat itu aku mulai menyukaimu."
+  ]
+}

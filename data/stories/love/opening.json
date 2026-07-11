@@ -1,0 +1,31 @@
+{
+  "id": "opening",
+  "title": "OPENING",
+
+  "type": "terminal",
+
+  "animation": {
+    "enter": "fade",
+    "exit": "fade"
+  },
+
+  "typing": {
+    "enabled": true,
+    "speed": 50,
+    "delay": 2000
+  },
+
+  "button": {
+    "text": "ENTER",
+    "action": "next"
+  },
+
+  "next": "hello",
+
+  "content": [
+    "Initializing...",
+    "Loading modules...",
+    "Preparing memories...",
+    "Done."
+  ]
+}

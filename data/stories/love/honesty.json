@@ -1,0 +1,33 @@
+{
+  "id": "honesty",
+  "title": "HONESTY",
+
+  "type": "dialog",
+
+  "animation": {
+    "enter": "fade",
+    "exit": "fade"
+  },
+
+  "typing": {
+    "enabled": true,
+    "speed": 35,
+    "delay": 1000
+  },
+
+  "button": {
+    "text": "Continue",
+    "action": "next"
+  },
+
+  "next": "thankYou",
+
+  "content": [
+    "Aku tahu...",
+    "Aku nggak bisa mengatur gimana perasaan seseorang.",
+    "Dan aku juga nggak berharap kamu harus langsung menjawab apa pun.",
+    "Aku cuma pengen jujur.",
+    "Karena menurutku...",
+    "Perasaan yang baik lebih baik disampaikan daripada disimpan sampai menyesal."
+  ]
+}

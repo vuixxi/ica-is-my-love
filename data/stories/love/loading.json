@@ -1,0 +1,43 @@
+{
+  "id": "loading",
+  "title": "LOADING MEMORIES",
+
+  "type": "loading",
+
+  "animation": {
+    "enter": "fade",
+    "exit": "fade"
+  },
+
+  "typing": {
+    "enabled": false,
+    "speed": 35,
+    "delay": 2000
+  },
+
+  "button": {
+    "text": "Continue",
+    "action": "next"
+  },
+
+  "next": "story",
+
+  "steps": [
+    {
+      "progress": 20,
+      "text": "First conversation..."
+    },
+    {
+      "progress": 45,
+      "text": "Random jokes..."
+    },
+    {
+      "progress": 70,
+      "text": "Late night chats..."
+    },
+    {
+      "progress": 100,
+      "text": "Favorite moments loaded."
+    }
+  ]
+}
