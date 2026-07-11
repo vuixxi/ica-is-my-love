@@ -74,14 +74,14 @@ const Loader = {
     return response.json();
   },
   async bootstrap() {
-    App.settings = await this.json("data/settings.json");
-    App.manifest = await this.json("data/manifest.json");
-    App.variables = await this.json("data/variables.json");
+    App.settings = await this.json("./data/settings.json");
+    App.manifest = await this.json("./data/manifest.json");
+    App.variables = await this.json("./data/variables.json");
     App.currentStory = App.manifest.story;
   },
 
   async scene(id) {
-    const path = `data/stories/${App.currentStory}/${id}.json`;
+    const path = `./data/stories/${App.currentStory}/${id}.json`;
     App.currentScene = await this.json(path);
     return App.currentScene;
   }
