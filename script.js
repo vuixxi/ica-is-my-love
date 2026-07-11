@@ -1,3 +1,20 @@
+const AudioSystem = (function () {
+  let bg = document.querySelector('.audio-system__bg');
+  
+  function playBg() {
+    if (bg && bg.paused) {
+      bg.volume = 0.5;
+      bg.play().catch(err => console.log(err));
+    }
+  }
+  
+  return { playBg };
+})();
+
+
+
+
+
 const UI = {
   app: document.getElementById("app")
 };
@@ -28,10 +45,16 @@ const SceneManager = {
   
   hide(id) {
     const scene = this.scenes[id];
-
-    if(scene){
+  
+    if (scene) {
       scene.style.display = "none";
       scene.style.opacity = 1;
+  
+      const content = scene.querySelector(".content");
+      if (content) content.innerHTML = "";
+  
+      const button = scene.querySelector("button");
+      if (button) button.disabled = true;
     }
   }
 };
@@ -249,19 +272,12 @@ const Engine = {
   
     try {
       const old = SceneManager.active;
-  
-      if(old){
-        await Animation.exit(
-          old,
-          App.currentScene.animation.exit
-        );
-  
-        old.style.display = "none";
-        old.style.opacity = 1;
+      if(old) {
+        await Animation.exit(old, App.currentScene.animation.exit);
+        SceneManager.hide(old.dataset.scene);
       }
   
       const scene = await Loader.scene(id);
-  
       const root = LayerRenderer.render(scene);
   
       root.style.display = "block";
@@ -276,14 +292,8 @@ const Engine = {
       };
       
       App.currentUI.button.disabled = true;
-  
-      await Animation.enter(
-        root,
-        scene.animation.enter
-      );
-  
+      await Animation.enter(root, scene.animation.enter);
       await Renderer[scene.type](scene);
-      
       App.currentUI.button.disabled = false;
   
     } finally {
@@ -301,6 +311,7 @@ const Engine = {
     UI.app.addEventListener("click", e => {
       if(e.target.tagName !== "BUTTON") return;
       const action = Actions[App.currentScene.button.action];
+      AudioSystem.playBg();
       action?.();
     });
   }
@@ -308,6 +319,9 @@ const Engine = {
 };
 
 window.addEventListener("DOMContentLoaded", () => Engine.init());
+
+
+
 
 
 
