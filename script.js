@@ -225,23 +225,11 @@ const Analysis = {
 };
 
 const Renderer = {
-  async typing(scene){
+  async typing(scene) {
     await Typewriter.lines(scene.content, scene.typing);
   },
   
   async dialog(scene) {
-    return this.typing(scene);
-  },
-
-  async terminal(scene) {
-    return this.typing(scene);
-  },
-
-  async result(scene) {
-    return this.typing(scene);
-  },
-
-  async ending(scene) {
     return this.typing(scene);
   },
 
@@ -256,10 +244,18 @@ const Renderer = {
 
 const Actions = {
   next() {
-    return Engine.goto(App.currentScene.next);
+    const story = App.manifest.stories[App.currentStory];
+    const index = story.indexOf(App.currentScene.id);
+    if (index === -1) return;
+    const nextScene = story[index + 1];
+    if (nextScene) {
+      Engine.goto(nextScene);
+    }
   },
+
   restart() {
-    return Engine.goto(App.settings.startScene);
+    const firstScene = App.manifest.stories[App.currentStory][0];
+    Engine.goto(firstScene);
   }
 };
 
@@ -304,7 +300,9 @@ const Engine = {
   async init() {
     await Loader.bootstrap();
     this.bindEvents();
-    await this.goto(App.settings.startScene);
+  
+    const firstScene = App.manifest.stories[App.currentStory][0];
+    await this.goto(firstScene);
   },
   
   bindEvents() {
@@ -336,25 +334,36 @@ window.addEventListener("DOMContentLoaded", () => Engine.init());
 
 const bgContainer = document.getElementById('bgContainer');
 function buildMatrixBackground() {
+  
   bgContainer.innerHTML = '';
+  
   const charWidth = 95; 
   const columnCount = Math.ceil(window.innerWidth / charWidth) + 1;
+  
   let textBlock = "";
+  
   for (let i = 0; i < 60; i++) {
     textBlock += "I LOVE YOU<br>";
   }
   
   for (let i = 0; i < columnCount; i++) {
+    
     const col = document.createElement('div');
     col.className = 'matrix-column';
+    
     const moveDiv = document.createElement('div');
     moveDiv.className = 'matrix-move';
+    
     moveDiv.innerHTML = textBlock + textBlock;
-    const fontSize = Math.floor(Math.random() * 1) + 2; // 12px - 21px
+    
+    const fontSize = Math.floor(Math.random() * 1) + 2;
     moveDiv.style.scale = `${fontSize}`;
+    
     col.style.opacity = (Math.random() * 0.5 + 0.3).toFixed(2);
     moveDiv.style.animationDelay = (Math.random() * - 100) + 's';
+    
     col.appendChild(moveDiv);
+    
     bgContainer.appendChild(col);
   }
 }
