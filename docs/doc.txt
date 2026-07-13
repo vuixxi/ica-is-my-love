@@ -1,0 +1,19 @@
+do you love me?/
+  index.html
+  script.js
+  data/
+    ├── manifest.json
+    ├── settings.json
+    ├── variables.json
+    └── stories/
+          └── love/
+                ├── opening.json
+                ├── hello.json
+                ├── loading.json
+                ├── story.json
+                ├── littleThings.json
+                ├── analysis.json
+                ├── result.json
+                ├── honesty.json
+                ├── thankYou.json
+                └── ending.json

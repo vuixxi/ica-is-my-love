@@ -1,0 +1,176 @@
+====================================================
+              SYSTEM.EXE
+A small program made for one special person.
+====================================================
+
+========================
+OPENING
+========================
+
+Layar hitam.
+
+> Initializing...
+> Loading modules...
+> Preparing memories...
+> Done.
+
+====================================================
+
+========================
+CHAPTER 1 - HELLO
+========================
+
+Hi, [Nama].
+Aku bikin sesuatu.
+Tenang, nggak panjang kok.
+Cuma sekitar dua menit.
+Kalau udah siap, klik Continue.
+
+====================================================
+
+========================
+CHAPTER 2 - LOADING MEMORIES
+========================
+
+[████░░░░░░] 20%
+First conversation...
+
+[██████░░░░] 45%
+Random jokes...
+
+[████████░░] 70%
+Late night chats...
+
+[██████████] 100%
+Favorite moments loaded.
+
+====================================================
+
+========================
+CHAPTER 3 - A LITTLE STORY
+========================
+
+Aku boleh cerita sebentar?
+Terima kasih.
+Sebenarnya...
+Awalnya aku nggak pernah nyangka.
+Semuanya terasa biasa aja.
+Sampai akhirnya...
+Kita mulai sering ngobrol.
+Terus ngobrol lagi.
+Dan lagi.
+Tanpa sadar...
+Aku mulai menikmati setiap obrolan itu.
+
+====================================================
+
+========================
+CHAPTER 4 - LITTLE THINGS
+========================
+
+Aku mulai hafal cara kamu mengetik.
+Aku mulai bisa nebak kapan kamu lagi capek.
+Aku mulai ingat hal hal kecil yang bahkan mungkin kamu sendiri lupa pernah cerita.
+Aku mulai nunggu notifikasi dari kamu.
+Aku mulai senyum sendiri waktu lihat nama kamu muncul di notifikasi ku.
+Aku mulai penasaran hari hari kamu berjalan gimana.
+Aku mulai berharap besok kita masih bisa ngobrol lagi.
+Lucu ya.
+Padahal awalnya cuma teman ngobrol biasa.
+
+====================================================
+
+========================
+CHAPTER 5 - SYSTEM ANALYSIS
+========================
+
+Friendship...
+██████████ 60%
+
+Comfort...
+██████████████  80%
+
+Happiness...
+██████████████████ 95%
+
+Feelings...
+██████████████████████ 100%
+
+====================================================
+
+========================
+RESULT
+========================
+
+Aku suka sama kamu.
+Sesederhana itu.
+Nggak ada alasan yang rumit.
+Cuma karena...
+Setiap ngobrol sama kamu,
+hari rasanya jadi lebih menyenangkan.
+
+====================================================
+
+========================
+CHAPTER 6 - HONESTY
+========================
+
+Aku tahu...
+Aku nggak bisa mengatur gimana perasaan seseorang.
+Dan aku juga nggak berharap kamu harus langsung menjawab apa pun.
+Aku cuma pengen jujur.
+Karena menurutku...
+Perasaan yang baik lebih baik disampaikan daripada disimpan sampai menyesal.
+
+====================================================
+
+========================
+CHAPTER 7 - THANK YOU
+========================
+
+Kalau ternyata...
+Perasaan kita sama.
+Aku bakal seneng sekali.
+Aku ga mau pengakuan ini membuat semuanya berubah.
+Aku cuma ingin kamu tau apa yang selama ini ada di pikiranku.
+Kalau ternyata tidak.
+Gapapa kok.
+Aku tetap bersyukur bisa mengenal kamu.
+Karena kamu udah jadi salah satu bagian yang bikin hariku lebih berwarna.
+
+====================================================
+
+========================
+ENDING
+========================
+
+Thank you for reading until the end.
+I hope this little website made you smile.
+Have a wonderful day.
+:)
+From, [Namamu]
+
+====================================================
+
+====================================================
+
+========================
+NEW CHAPTER - ABOUT YOU
+========================
+
+Aku suka satu hal tentang kamu.
+Sebenarnya...
+Bukan cuma satu sih.
+Aku suka cara kamu cerita.
+Hal yang menurut kamu biasa, entah kenapa selalu menarik buat didengar.
+Aku suka waktu kamu semangat bahas sesuatu yang kamu suka.
+Aku suka cara kamu ketawa.
+Aku suka cara kamu marah.
+Dan...
+Aku suka fakta kalau kamu bisa bikin hari yang biasa jadi terasa lebih menyenangkan, bahkan tanpa sadar sekalipun.
+
+====================================================
+
+aku mau bikin web strory gitu buat orang yang aku cintai, aku baru buat alurnya seperti ini, kira kira apa aja yang kurang, bagian mana yang kurang tepat dan ga nyambung.
+apakah perlu menambahkan chapter baru?
+coba sisipkan 2–3 detail yang hanya kalian berdua yang paham. Misalnya kebiasaan dia, candaan internal, topik yang sering kalian bahas, atau momen sederhana yang pernah terjadi. Detail-detail kecil seperti itu akan membuat web ini terasa benar-benar dibuat khusus untuk dia, bukan sekadar template yang bisa diberikan kepada siapa saja.
